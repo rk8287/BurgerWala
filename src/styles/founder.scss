@@ -1,0 +1,73 @@
+@import "color.scss";
+
+.founder{
+    height: 80vh;
+    width: 100%;
+    background-color: $red;
+    
+
+
+    >div{
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        
+
+        >img{
+            width: 30%;
+            height: 40%;
+            border-radius: 100%;
+
+        }
+
+        > h3{
+            font-size: 2rem;
+            padding: 2rem 0 1rem 0;
+        }
+        >p{
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+    }
+
+    
+}
+
+
+@media screen and (max-width:600px) {
+
+    .founder{
+        height: 80vh;
+        width: 100%;
+        background-color: $red;
+        
+    
+    
+        >div{
+    
+            height: 100%;
+            width: 100%;
+            margin: auto;
+            
+            
+            >p{
+                width: 50%;
+            }
+    
+            >img{
+                width: 65%;
+                height: 40%;
+                border-radius: 100%;
+    
+            }
+
+        }
+    }
+}

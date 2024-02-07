@@ -1,0 +1,82 @@
+@import 'color.scss';
+
+
+.paymentSucess{
+    
+    background-color: $pink;
+    width: 100%;
+    height: 80vh;
+   
+
+    > main {
+        height: 100%;
+        max-width: 900px;
+        background-color: white;
+        padding: 2rem;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+
+
+        >div{
+            margin: auto;
+
+
+            > h1 {
+                text-transform: uppercase;
+                margin: 3rem;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+          
+            >img{
+            
+               width: 400px;
+              
+            }
+    
+
+        }
+
+        >a{
+            color: white;
+            background-color: $reddark;
+            width: fit-content;
+            padding: 0.45rem 1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    
+
+    
+    .paymentSucess{
+
+        width: 100%;
+        height: 100%;
+
+
+        >main >div{
+
+            >p{
+                width:300px;
+                margin: auto;
+                align-items: center;
+                text-align: center;
+            }
+
+            >img{
+                width: 350px;
+            }
+        }
+    }
+ }
+ 
+ 

@@ -3,12 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/material": "^5.15.6",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@stripe/react-stripe-js": "^2.4.0",
+    "@stripe/stripe-js": "^2.4.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.5",
+    "chart.js": "^4.4.1",
+    "country-state-city": "^3.2.1",
+    "framer-motion": "^10.18.0",
+    "protected-route-react": "^1.0.1",
+    "razorpay": "^2.9.2",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
+    "sass": "^1.69.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +50,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://192.168.67.177:4000"
 }
