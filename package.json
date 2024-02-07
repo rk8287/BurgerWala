@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -52,4 +53,9 @@
     ]
   },
   "proxy": "http://192.168.67.177:4000"
+=======
+  "dependencies": {
+    "redux-devtools-extension": "^2.13.9"
+  }
+>>>>>>> c7a1bb27aec63f9abf0df2e1a79a04117e8dada6
 }
